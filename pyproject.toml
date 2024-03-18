@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "feature_extractors"
+version = "0.0.1"
+authors = [
+  { name="Konrad Swierczek", email="swierckj@mcmaster.ca" },
+]
+description = "Music content analysis audio feature extractors used throughout my PhD."
+readme = "README.md"
+requires-python = ">=3.10.12"
+dependencies = ["librosa == 0.10.0.post2", "essentia == 2.1b6.dev1110", "numpy == 1.24.2"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPL3",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/konradswierczek/feature_extractors"
+Issues = "https://github.com/konradswierczek/feature_extractors/issues"
